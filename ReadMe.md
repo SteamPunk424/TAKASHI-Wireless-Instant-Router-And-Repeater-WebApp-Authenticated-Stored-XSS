@@ -68,11 +68,6 @@ To mitigate this issue, the following steps should be taken:
 3. **Escaping Output**: Encode user input before rendering it in the browser.
 4. **Disable Client-Side Validation Bypass**: Ensure all input validation occurs on the server-side in addition to any JavaScript validation.
 
-## Disclosure Timeline
-- **Discovery**: [Insert Date]  
-- **Vendor Notified**: [Insert Date]  
-- **Patch Released**: [Pending/Date]  
-- **Public Disclosure**: [Insert Date]  
 
 ## References
 - [OWASP XSS Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html)
