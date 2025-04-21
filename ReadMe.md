@@ -1,4 +1,4 @@
-# TAKASHI Wireless Instant Router and Repeater - XSS Vulnerability
+# TAKASHI Wireless Instant Router and Repeater - XSS Vulnerability CVE-2025-29712
 
 ## Overview
 A stored cross-site scripting (XSS) vulnerability has been identified in the TAKASHI Wireless Instant Router and Repeater (Model A5) running firmware version **V5.07.38_AAL03** with hardware version **V3.0**. This vulnerability arises due to improper sanitization of user input in the `DMZ Host` IP address field.
