@@ -10,7 +10,10 @@ A stored cross-site scripting (XSS) vulnerability has been identified in the TAK
 - **Hardware Version**: V3.0  
 
 ## Vulnerability Details
-The web application attempts to filter input using a JavaScript function on the client side. However, this validation can be bypassed by sending a direct HTTP request to the web server, leading to a stored XSS vulnerability. Any user visiting the `DMZ Host` section of the web application will have the injected script executed in their browser.
+A cross-site scripting (XSS) vulnerability in Takashi Wireless Instant
+Router and Repeater (Model A5) firmware v5.07.38_AAL03 with hardware
+v3.0 allows attackers to execute arbitrary web scripts or HTML via
+injecting a crafted payload into the DMZ Host parameter.
 
 ### Exploit Request
 The following `POST` request demonstrates the XSS injection:
