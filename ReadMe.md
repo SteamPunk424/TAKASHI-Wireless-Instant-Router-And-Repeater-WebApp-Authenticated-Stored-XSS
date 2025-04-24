@@ -85,3 +85,5 @@ This vulnerability report is for educational and research purposes only. The inf
 - William James Schleppegrell -> https://github.com/SteamPunk424
   
 - Martyn Lodder -> https://github.com/rootofficial
+
+- Charles Johnson -> https://github.com/lamentomori
